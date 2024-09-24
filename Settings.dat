@@ -1,0 +1,156 @@
+﻿{
+  "version": 32,
+  "protocol": 2,
+  "video": {
+    "screenMode": 1,
+    "screenW": 1600,
+    "screenH": 900,
+    "screenScale": 0,
+    "fieldOfView": 75.0,
+    "exposure": 0.0,
+    "contrast": 1.0
+  },
+  "audio": {
+    "masterVolume": 1.0,
+    "musicVolume": 0.0,
+    "uiVolume": 0.0,
+    "effectsVolume": 0.148304954,
+    "backgroundVolume": 0.0,
+    "soundNewMessage": true,
+    "speakerMode": 2
+  },
+  "input": {
+    "walkByDefault": false,
+    "mouseInvert": false,
+    "mouseSensitivity": 1.44067693,
+    "smoothFisherRotation": false,
+    "actions": {}
+  },
+  "graphics": {
+    "vSyncCount": 0,
+    "maxFPS": 0,
+    "nonFocusMaxFPS": 0,
+    "preset": {
+      "version": 6,
+      "preset": 1,
+      "starrySky": false,
+      "fog": false,
+      "water": {
+        "reflections": {
+          "enabled": false,
+          "downsample": 2,
+          "reflectionCullingMask": {
+            "value": 4202496
+          },
+          "shadows": false,
+          "lodBiasMult": 0.3,
+          "blur": 2.4
+        },
+        "depth": {
+          "downsample": 2
+        }
+      },
+      "reflections": {
+        "global": {
+          "resolution": 64,
+          "frames": 28
+        }
+      },
+      "vegetation": {
+        "grassDensity": {
+          "density": 0.0
+        },
+        "renderPriority": {
+          "renderPriority": 0
+        }
+      },
+      "shadows": {
+        "global": {
+          "pixelLightCount": 0,
+          "quality": 0,
+          "resolution": 0,
+          "cascades": 0,
+          "distance": 10.0
+        },
+        "lamplight": {
+          "pixelLightCount": 0,
+          "quality": 0,
+          "resolution": 0,
+          "cascades": 0,
+          "distance": 10.0
+        },
+        "ssao": {
+          "enabled": false,
+          "sampleCount": 0,
+          "intensity": 0.25
+        }
+      },
+      "ssshadows": {
+        "global": {
+          "enabled": false,
+          "distance": 50,
+          "rayCount": 24
+        }
+      },
+      "textures": {
+        "global": {
+          "masterTextureLimit": 1,
+          "anisotropicFiltering": 0,
+          "billboardsFaceCameraPosition": false,
+          "particleRaycastBudget": 4,
+          "advancedTerrainBlending": false
+        }
+      },
+      "lodBias": 0.3,
+      "wind": false
+    },
+    "bloom": false,
+    "antialiasing": false,
+    "sharpening": false
+  },
+  "appearance": {
+    "locale": null,
+    "hud": {
+      "showHUD": true,
+      "showHelp": false,
+      "showWeather": true,
+      "showCompass": true,
+      "showCorf": true,
+      "showCompetition": true,
+      "showPlayerLevel": true,
+      "showPlayerParams": true,
+      "showMessages": true,
+      "showFishAttack": true,
+      "showFishFight": true,
+      "showRod": 1,
+      "showBobberCam": 1,
+      "bobberCamPosition": 0,
+      "bobberCamSize": 0
+    },
+    "chat": {
+      "showFishCaught": true,
+      "showFishCaughtTrophy": true,
+      "showFishLeft": true,
+      "showBreaks": true,
+      "showRigHitched": true,
+      "showLevelUp": true,
+      "showEat": true,
+      "showThrowFeed": true,
+      "showCraftingUsed": true,
+      "showLocalRecords": true,
+      "showTotalRecords": true,
+      "showMessages": true,
+      "showAnnouncements": true
+    },
+    "squinting": {
+      "autoWalk": true,
+      "autoCast": true,
+      "autoRod": true,
+      "autoReel": true
+    },
+    "school": true,
+    "autologin": true,
+    "lastitem": true,
+    "selectWaterbodyOnStart": false
+  }
+}
