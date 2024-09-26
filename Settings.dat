@@ -14,24 +14,41 @@
     "masterVolume": 1.0,
     "musicVolume": 0.0,
     "uiVolume": 0.0,
-    "effectsVolume": 0.148304954,
+    "effectsVolume": 0.110169493,
     "backgroundVolume": 0.0,
-    "soundNewMessage": true,
+    "soundNewMessage": false,
     "speakerMode": 2
   },
   "input": {
     "walkByDefault": false,
     "mouseInvert": false,
-    "mouseSensitivity": 1.44067693,
+    "mouseSensitivity": 1.37288141,
     "smoothFisherRotation": false,
-    "actions": {}
+    "actions": {
+      "7": {
+        "main": {
+          "key": 9
+        },
+        "alternative": {
+          "key": 0
+        }
+      },
+      "29": {
+        "main": {
+          "key": 0
+        },
+        "alternative": {
+          "key": 0
+        }
+      }
+    }
   },
   "graphics": {
     "vSyncCount": 0,
-    "maxFPS": 0,
-    "nonFocusMaxFPS": 0,
+    "maxFPS": 100,
+    "nonFocusMaxFPS": 60,
     "preset": {
-      "version": 6,
+      "version": 7,
       "preset": 1,
       "starrySky": false,
       "fog": false,
@@ -112,7 +129,7 @@
     "locale": null,
     "hud": {
       "showHUD": true,
-      "showHelp": false,
+      "showHelp": true,
       "showWeather": true,
       "showCompass": true,
       "showCorf": true,
@@ -128,19 +145,19 @@
       "bobberCamSize": 0
     },
     "chat": {
-      "showFishCaught": true,
+      "showFishCaught": false,
       "showFishCaughtTrophy": true,
-      "showFishLeft": true,
-      "showBreaks": true,
-      "showRigHitched": true,
-      "showLevelUp": true,
-      "showEat": true,
-      "showThrowFeed": true,
-      "showCraftingUsed": true,
-      "showLocalRecords": true,
-      "showTotalRecords": true,
+      "showFishLeft": false,
+      "showBreaks": false,
+      "showRigHitched": false,
+      "showLevelUp": false,
+      "showEat": false,
+      "showThrowFeed": false,
+      "showCraftingUsed": false,
+      "showLocalRecords": false,
+      "showTotalRecords": false,
       "showMessages": true,
-      "showAnnouncements": true
+      "showAnnouncements": false
     },
     "squinting": {
       "autoWalk": true,
