@@ -40,6 +40,54 @@
         "alternative": {
           "key": 0
         }
+      },
+      "21": {
+        "main": {
+          "key": 48
+        },
+        "alternative": {
+          "key": 326
+        }
+      },
+      "5": {
+        "main": {
+          "key": 304
+        },
+        "alternative": {
+          "key": 287
+        }
+      },
+      "101": {
+        "main": {
+          "key": 323
+        },
+        "alternative": {
+          "key": 288
+        }
+      },
+      "102": {
+        "main": {
+          "key": 324
+        },
+        "alternative": {
+          "key": 289
+        }
+      },
+      "16": {
+        "main": {
+          "key": 282
+        },
+        "alternative": {
+          "key": 293
+        }
+      },
+      "500": {
+        "main": {
+          "key": 0
+        },
+        "alternative": {
+          "key": 0
+        }
       }
     }
   },
@@ -129,18 +177,18 @@
     "locale": null,
     "hud": {
       "showHUD": true,
-      "showHelp": true,
+      "showHelp": false,
       "showWeather": true,
       "showCompass": true,
       "showCorf": true,
-      "showCompetition": true,
+      "showCompetition": false,
       "showPlayerLevel": true,
       "showPlayerParams": true,
-      "showMessages": true,
+      "showMessages": false,
       "showFishAttack": true,
       "showFishFight": true,
-      "showRod": 1,
-      "showBobberCam": 1,
+      "showRod": 2,
+      "showBobberCam": 0,
       "bobberCamPosition": 0,
       "bobberCamSize": 0
     },
@@ -167,7 +215,7 @@
     },
     "school": true,
     "autologin": true,
-    "lastitem": true,
-    "selectWaterbodyOnStart": false
+    "lastitem": false,
+    "selectWaterbodyOnStart": true
   }
 }
