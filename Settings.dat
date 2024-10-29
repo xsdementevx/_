@@ -2,7 +2,7 @@
   "version": 32,
   "protocol": 2,
   "video": {
-    "screenMode": 2,
+    "screenMode": 1,
     "screenW": 1600,
     "screenH": 900,
     "screenScale": 0,
