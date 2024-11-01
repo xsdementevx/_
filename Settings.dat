@@ -2,9 +2,9 @@
   "version": 32,
   "protocol": 2,
   "video": {
-    "screenMode": 2,
-    "screenW": 1920,
-    "screenH": 1080,
+    "screenMode": 1,
+    "screenW": 1600,
+    "screenH": 900,
     "screenScale": 0,
     "fieldOfView": 75.0,
     "exposure": 0.0,
