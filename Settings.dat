@@ -2,9 +2,9 @@
   "version": 32,
   "protocol": 2,
   "video": {
-    "screenMode": 1,
-    "screenW": 1600,
-    "screenH": 900,
+    "screenMode": 2,
+    "screenW": 1920,
+    "screenH": 1080,
     "screenScale": 0,
     "fieldOfView": 75.0,
     "exposure": 0.0,
@@ -28,7 +28,7 @@
   },
   "graphics": {
     "vSyncCount": 1,
-    "maxFPS": 75,
+    "maxFPS": 60,
     "nonFocusMaxFPS": 0,
     "preset": {
       "version": 7,
