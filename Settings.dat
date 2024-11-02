@@ -14,7 +14,7 @@
     "masterVolume": 1.0,
     "musicVolume": 0.0,
     "uiVolume": 0.0,
-    "effectsVolume": 0.110169493,
+    "effectsVolume": 0.097457625,
     "backgroundVolume": 0.0,
     "soundNewMessage": false,
     "speakerMode": 2
@@ -22,79 +22,14 @@
   "input": {
     "walkByDefault": false,
     "mouseInvert": false,
-    "mouseSensitivity": 1.37288141,
+    "mouseSensitivity": 1.38983047,
     "smoothFisherRotation": false,
-    "actions": {
-      "7": {
-        "main": {
-          "key": 9
-        },
-        "alternative": {
-          "key": 0
-        }
-      },
-      "29": {
-        "main": {
-          "key": 0
-        },
-        "alternative": {
-          "key": 0
-        }
-      },
-      "21": {
-        "main": {
-          "key": 48
-        },
-        "alternative": {
-          "key": 326
-        }
-      },
-      "5": {
-        "main": {
-          "key": 304
-        },
-        "alternative": {
-          "key": 287
-        }
-      },
-      "101": {
-        "main": {
-          "key": 323
-        },
-        "alternative": {
-          "key": 288
-        }
-      },
-      "102": {
-        "main": {
-          "key": 324
-        },
-        "alternative": {
-          "key": 289
-        }
-      },
-      "16": {
-        "main": {
-          "key": 282
-        },
-        "alternative": {
-          "key": 293
-        }
-      },
-      "500": {
-        "main": {
-          "key": 0
-        },
-        "alternative": {
-          "key": 0
-        }
-      }
-    }
+    "actions": {}
   },
   "graphics": {
-    "vSyncCount": 0,
-    "maxFPS": 100,
-    "nonFocusMaxFPS": 60,
+    "vSyncCount": 1,
+    "maxFPS": 75,
+    "nonFocusMaxFPS": 0,
     "preset": {
       "version": 7,
       "preset": 1,
@@ -177,35 +112,35 @@
     "locale": null,
     "hud": {
       "showHUD": true,
-      "showHelp": false,
+      "showHelp": true,
       "showWeather": true,
       "showCompass": true,
       "showCorf": true,
-      "showCompetition": false,
+      "showCompetition": true,
       "showPlayerLevel": true,
       "showPlayerParams": true,
-      "showMessages": false,
+      "showMessages": true,
       "showFishAttack": true,
       "showFishFight": true,
-      "showRod": 2,
-      "showBobberCam": 0,
+      "showRod": 1,
+      "showBobberCam": 1,
       "bobberCamPosition": 0,
       "bobberCamSize": 0
     },
     "chat": {
-      "showFishCaught": false,
+      "showFishCaught": true,
       "showFishCaughtTrophy": true,
-      "showFishLeft": false,
-      "showBreaks": false,
-      "showRigHitched": false,
-      "showLevelUp": false,
-      "showEat": false,
-      "showThrowFeed": false,
-      "showCraftingUsed": false,
-      "showLocalRecords": false,
-      "showTotalRecords": false,
+      "showFishLeft": true,
+      "showBreaks": true,
+      "showRigHitched": true,
+      "showLevelUp": true,
+      "showEat": true,
+      "showThrowFeed": true,
+      "showCraftingUsed": true,
+      "showLocalRecords": true,
+      "showTotalRecords": true,
       "showMessages": true,
-      "showAnnouncements": false
+      "showAnnouncements": true
     },
     "squinting": {
       "autoWalk": true,
