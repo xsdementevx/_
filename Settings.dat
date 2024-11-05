@@ -27,8 +27,8 @@
     "actions": {}
   },
   "graphics": {
-    "vSyncCount": 1,
-    "maxFPS": 60,
+    "vSyncCount": 0,
+    "maxFPS": 75,
     "nonFocusMaxFPS": 0,
     "preset": {
       "version": 7,
