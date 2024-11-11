@@ -111,7 +111,7 @@
   "appearance": {
     "locale": null,
     "hud": {
-      "showHUD": false,
+      "showHUD": true,
       "showHelp": true,
       "showWeather": true,
       "showCompass": true,
