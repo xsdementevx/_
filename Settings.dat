@@ -2,9 +2,9 @@
   "version": 32,
   "protocol": 2,
   "video": {
-    "screenMode": 1,
-    "screenW": 1600,
-    "screenH": 900,
+    "screenMode": 0,
+    "screenW": 1920,
+    "screenH": 1080,
     "screenScale": 0,
     "fieldOfView": 75.0,
     "exposure": 0.0,
@@ -12,10 +12,10 @@
   },
   "audio": {
     "masterVolume": 1.0,
-    "musicVolume": 0.0,
-    "uiVolume": 0.0,
-    "effectsVolume": 0.097457625,
-    "backgroundVolume": 0.0,
+    "musicVolume": 0.7245764,
+    "uiVolume": 0.7118644,
+    "effectsVolume": 0.652542353,
+    "backgroundVolume": 1.0,
     "soundNewMessage": false,
     "speakerMode": 2
   },
@@ -28,81 +28,81 @@
   },
   "graphics": {
     "vSyncCount": 0,
-    "maxFPS": 75,
+    "maxFPS": 120,
     "nonFocusMaxFPS": 0,
     "preset": {
       "version": 7,
-      "preset": 1,
-      "starrySky": false,
-      "fog": false,
+      "preset": 6,
+      "starrySky": true,
+      "fog": true,
       "water": {
         "reflections": {
-          "enabled": false,
-          "downsample": 2,
+          "enabled": true,
+          "downsample": 0,
           "reflectionCullingMask": {
-            "value": 4202496
+            "value": 39921411
           },
-          "shadows": false,
-          "lodBiasMult": 0.3,
-          "blur": 2.4
+          "shadows": true,
+          "lodBiasMult": 1.0,
+          "blur": 1.0
         },
         "depth": {
-          "downsample": 2
+          "downsample": 0
         }
       },
       "reflections": {
         "global": {
-          "resolution": 64,
-          "frames": 28
+          "resolution": 256,
+          "frames": 9
         }
       },
       "vegetation": {
         "grassDensity": {
-          "density": 0.0
+          "density": 1.0
         },
         "renderPriority": {
-          "renderPriority": 0
+          "renderPriority": 5
         }
       },
       "shadows": {
         "global": {
-          "pixelLightCount": 0,
-          "quality": 0,
-          "resolution": 0,
-          "cascades": 0,
-          "distance": 10.0
+          "pixelLightCount": 3,
+          "quality": 2,
+          "resolution": 2,
+          "cascades": 4,
+          "distance": 50.0
         },
         "lamplight": {
-          "pixelLightCount": 0,
-          "quality": 0,
-          "resolution": 0,
-          "cascades": 0,
-          "distance": 10.0
+          "pixelLightCount": 3,
+          "quality": 2,
+          "resolution": 2,
+          "cascades": 2,
+          "distance": 35.0
         },
         "ssao": {
-          "enabled": false,
-          "sampleCount": 0,
+          "enabled": true,
+          "sampleCount": 3,
           "intensity": 0.25
         }
       },
       "ssshadows": {
         "global": {
-          "enabled": false,
-          "distance": 50,
-          "rayCount": 24
+          "enabled": true,
+          "distance": 37,
+          "rayCount": 64
         }
       },
       "textures": {
         "global": {
-          "masterTextureLimit": 1,
-          "anisotropicFiltering": 0,
-          "billboardsFaceCameraPosition": false,
-          "particleRaycastBudget": 4,
-          "advancedTerrainBlending": false
+          "masterTextureLimit": 0,
+          "anisotropicFiltering": 2,
+          "billboardsFaceCameraPosition": true,
+          "particleRaycastBudget": 256,
+          "advancedTerrainBlending": true
         }
       },
-      "lodBias": 0.3,
-      "wind": false
+      "lodBias": 1.5,
+      "wind": true
     },
     "bloom": false,
     "antialiasing": false,
