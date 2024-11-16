@@ -137,9 +137,9 @@
       "showPlayerLevel": true,
       "showPlayerParams": true,
       "showMessages": false,
-      "showFishAttack": false,
-      "showFishFight": false,
-      "showRod": 0,
+      "showFishAttack": true,
+      "showFishFight": true,
+      "showRod": 1,
       "showBobberCam": 0,
       "bobberCamPosition": 0,
       "bobberCamSize": 0
