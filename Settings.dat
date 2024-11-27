@@ -139,7 +139,7 @@
       "showMessages": false,
       "showFishAttack": true,
       "showFishFight": true,
-      "showRod": 1,
+      "showRod": 0,
       "showBobberCam": 0,
       "bobberCamPosition": 0,
       "bobberCamSize": 0
