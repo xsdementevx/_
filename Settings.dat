@@ -35,7 +35,7 @@
       },
       "29": {
         "main": {
-          "key": 0
+          "key": 285
         },
         "alternative": {
           "key": 0
@@ -138,7 +138,7 @@
     "hud": {
       "showHUD": true,
       "showHelp": false,
-      "showWeather": false,
+      "showWeather": true,
       "showCompass": true,
       "showCorf": true,
       "showCompetition": false,
