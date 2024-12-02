@@ -3,9 +3,9 @@
   "protocol": 2,
   "video": {
     "screenMode": 0,
-    "screenW": 1366,
-    "screenH": 768,
-    "screenScale": 0,
+    "screenW": 1920,
+    "screenH": 1080,
+    "screenScale": 101,
     "fieldOfView": 75.0,
     "exposure": 0.0,
     "contrast": 1.0
@@ -138,7 +138,7 @@
     "hud": {
       "showHUD": true,
       "showHelp": false,
-      "showWeather": true,
+      "showWeather": false,
       "showCompass": true,
       "showCorf": true,
       "showCompetition": false,
@@ -162,7 +162,7 @@
       "showEat": false,
       "showThrowFeed": false,
       "showCraftingUsed": false,
-      "showLocalRecords": true,
+      "showLocalRecords": false,
       "showTotalRecords": false,
       "showMessages": true,
       "showAnnouncements": false
