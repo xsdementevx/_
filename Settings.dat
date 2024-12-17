@@ -3,8 +3,8 @@
   "protocol": 2,
   "video": {
     "screenMode": 0,
-    "screenW": 1920,
-    "screenH": 1080,
+    "screenW": 1714,
+    "screenH": 934,
     "screenScale": 101,
     "fieldOfView": 75.0,
     "exposure": 0.0,
